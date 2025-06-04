@@ -11,6 +11,24 @@
 /* ==========================================================================
    CONTAINER AND LAYOUT
    ========================================================================== */
+body {
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(to bottom, #000000, #2c2c2c); /* Black to dark grey */
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  padding: 20px;
+}
+
+a {
+  color: inherit; /* Optional: inherits white text color */
+  text-decoration: none;
+}
 
 .container {
   width: 100%;
@@ -166,7 +184,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #000;
+  color: #FFFFFF;
   font-weight: bold;
   margin-bottom: 0;
   margin-right: 12px;
@@ -372,8 +390,8 @@
   }
   
   .button-icon {
-    width: 14px;
-    height: 14px;
+    width: 36px;
+    height: 36px;
   }
   
   .flags-section {
